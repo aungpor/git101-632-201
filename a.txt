@@ -1,1 +1,8 @@
-Hello git
+#include<stdio.h>
+void main() {
+   int computer_time = 785;
+      int a = computer_time/1440;
+   int b = (computer_time - (a*1440))/60;
+   int c = computer_time - (a*1440) - (b*60);
+   printf("It is %d days %d hours and %d minutes.\n", a, b, c);
+}
